@@ -1,0 +1,166 @@
+h1 {
+	text-align: center;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 32pt;
+	font-weight: bold;
+	text-shadow: 3px 3px #999999;
+}
+
+body {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 8pt;
+	background-image: url("https://mathlab.utsc.utoronto.ca/courses/cscb20w17/bretsche/assignments/a2/img/background.png");
+}
+
+dt{
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+#banner{
+	margin: 0px 0px 0px 0px;
+	display: block;
+	margin-top: -10px;
+	margin-right: -10px;
+	margin-left: -10px;
+	height: 50px;
+	width: 100%;
+	background-image: url("https://mathlab.utsc.utoronto.ca/courses/cscb20w17/bretsche/assignments/a2/img/bannerbg.png");
+}
+
+#single_review{
+	min-height: 24px;
+	font-weight: bold;
+	font-size: 8pt;
+	background-color: #E8DC9B;
+	border-width: 2px;
+	border-color: gray;
+	border-style: solid;
+	border-radius: 10px;
+	padding: 8px ;
+}
+
+#left{
+	width: 550px;
+}
+
+
+#overall_rating_tomato {
+	vertical-align: text-top;
+}
+
+#review_column_left {
+	width: 47%;
+	float: left;
+	margin-left: 2%;
+	height: 100%;
+}
+
+#review_column_right {
+	width: 47%;
+	float: right;
+	margin-left: 2%;
+	margin-right: 2%;
+	height: 100%;
+}
+
+#reviewer {
+	margin-bottom: 3em;
+}
+
+#company {
+	font-style: italic;
+}
+
+
+#reviewer_img{
+	float: left;
+	margin-right: 5px;
+}
+
+
+#reviews {
+	display: flex;
+	width: 550px;
+	height: 100%;
+}
+
+#rating{
+
+	overflow: hidden;
+	width: 550px;
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+	background-image: url("https://mathlab.utsc.utoronto.ca/courses/cscb20w17/bretsche/assignments/a2/img/rottenbg.png");
+	height: 83px;
+}
+
+#allcontent{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	border-color: gray;
+	border-width: 4px;
+	border-radius: 20px;
+	border-style: solid;
+	height: 100%
+}
+
+#pagenum{
+	vertical-align: top;
+	text-align: center;
+	background-color: #A2B964;
+	margin-bottom: auto;
+	padding: 5px;
+
+}
+
+#main {
+	clear: none;
+	display: flex;
+	overflow: hidden;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;	
+}
+
+
+#review_icon {
+	float: left;
+	margin-right: 5px;
+
+}
+
+#right{
+	background-color: #A2B964;
+	width: 250px;
+}
+
+#movieinfo {
+	word-wrap: break-word;
+	float: right;
+	padding: 10pt; 
+	background-color: #A2B964;
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+}
+
+#movie_poster{
+	width: 250px;
+	height: 100%;
+}
+
+#validator{
+	position: fixed;
+	bottom: 2%;
+	right: 2%
+}
+
+#validator_img{
+	opacity: 0.6;
+}
